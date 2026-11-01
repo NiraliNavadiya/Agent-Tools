@@ -16,10 +16,10 @@ importers:
         version: 150.0.1
       openai:
         specifier: ^5.1.1
-        version: 5.1.1(zod@3.25.56)
+        version: 5.1.1(zod@4.6.6)
       zod:
-        specifier: ^3.25.56
-        version: 3.25.56
+        specifier: ^4.6.6
+        version: 4.6.6
     devDependencies:
       '@types/node':
         specifier: ^22.15.30
@@ -401,8 +401,8 @@ packages:
     resolution: {integrity: sha512-d2JWLCivmZYTSIoge9MsgFCZrt571BikcWGYkjC1khllbTeDlGqZ2D8vD8E/lJa8WGWbb7Plm8/XJYV7IJHZZw==}
     engines: {node: '>= 8'}
 
-  zod@3.25.56:
-    resolution: {integrity: sha512-rd6eEF3BTNvQnR2e2wwolfTmUTnp70aUTqr0oaGbHifzC3BKJsoV+Gat8vxUMR1hwOKBs6El+qWehrHbCpW6SQ==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 snapshots:
 
@@ -693,9 +693,9 @@ snapshots:
 
   object-inspect@1.13.4: {}
 
-  openai@5.1.1(zod@3.25.56):
+  openai@5.1.1(zod@4.6.6):
     optionalDependencies:
-      zod: 3.25.56
+      zod: 4.6.6
 
   qs@6.14.0:
     dependencies:
@@ -746,4 +746,4 @@ snapshots:
 
   web-streams-polyfill@3.3.3: {}
 
-  zod@3.25.56: {}
+  zod@4.6.6: {}
